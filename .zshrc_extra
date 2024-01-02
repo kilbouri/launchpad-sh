@@ -1,0 +1,9 @@
+# Import aliases from ~/.aliases
+source ~/.aliases
+
+# Set VIM as default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+# Launch the Starship
+eval "$(starship init zsh)"
